@@ -139,7 +139,8 @@ ol {
   padding: 200px 0;
 }
 .hero {
-  background-image: url(../images/bg_image/bg_img.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../images/bg_image/bg_img.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -202,19 +203,18 @@ ol {
 
 .about__img1::before {
   background-image: url(../images/icons/Group.svg);
-  background-repeat: no-repeat;
 }
 
 .about__img2::before {
-  background-image: url(../images/icons/diagram-1.svg);
+  background-image: url(../images/icons/clock\ 1.svg);
 }
 
 .about__img3::before {
-  background-image: url(../images/icons/diagram-1.svg);
+  background-image: url(../images/icons/diagram\ 1.svg);
 }
 
 .about__img4::before {
-  background-image: url(../images/icons/astronaut-1.svg);
+  background-image: url(../images/icons/astronaut\ 1.svg);
 }
 .about__list {
   display: flex;
@@ -283,7 +283,6 @@ ol {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-
 .our-team__several {
   padding: 30px 0;
 }
@@ -306,7 +305,7 @@ ol {
   line-height: 19px;
   text-align: center;
   color: #757575;
-  margin-bottom: 0;
+  margin-bottom: 20px;
 }
 .caption_our {
   font-weight: bold;
@@ -315,6 +314,16 @@ ol {
   text-align: center;
   color: #212121;
   margin-bottom: 50px;
+}
+
+.our-team_icon--list {
+  display: flex;
+  justify-content: space-evenly;
+}
+.our-team_icon--svg {
+  width: 20px;
+  height: 20px;
+  fill: #212121;
 }
 
 /* Regular__customers */
