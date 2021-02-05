@@ -131,19 +131,12 @@ ol {
   margin-right: 50px;
 }
 
-.header__link-info:hover .header__item-svg-icon {
-  fill: #2196f3;
-}
-
 .header__link-info:hover {
   color: #2196f3;
 }
-/* .header__item-svg-icon {
-  fill: currentColor;
-} */
 
 .header__item-svg-icon {
-  fill: #757575;
+  fill: currentColor;
   margin-right: 10px;
 }
 
