@@ -323,15 +323,30 @@ ol {
 .our-team_icon--svg {
   width: 20px;
   height: 20px;
-  fill: #212121;
+  /* fill: #212121; */
 }
+
+/* .our-team_icon--link:hover {
+  width: 44px;
+  height: 44px;
+  background-color: #188ce8;
+} */
+.our-team_icon--use:hover {
+  width: 44px;
+  height: 44px;
+  background-color: #188ce8;
+}
+
+/* .our-team_icon--item:hover {
+  background-color: #;
+} */
 
 /* Regular__customers */
 
 .reg__customers-list {
+  display: flex;
   margin-top: -30px;
   margin-left: -30px;
-  display: flex;
 }
 
 .reg__customers-link {
@@ -349,6 +364,19 @@ ol {
   border: 1px solid #2196f3;
   box-sizing: border-box;
   border-radius: 4px;
+}
+.reg__customers-link:hover,
+.reg__customers-svg {
+  color: #188ce8;
+}
+.use {
+  fill: #212121;
+}
+
+.reg__customers-svg {
+  width: 20px;
+  height: 20px;
+  fill: #188ce8;
 }
 /* footer */
 
